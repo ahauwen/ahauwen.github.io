@@ -68,6 +68,12 @@ html,body{
     font-weight: bold;
     margin: 20px 0px;
 }
+.contbody .secondTitle{
+    margin: 10px 0px;
+}
+.contbody a {
+    text-decoration: none;
+}
 .contbody::after{
     content: "";
     clear: both;
