@@ -31,6 +31,10 @@ html,body{
     font-size: 200%;
     font-weight: bold;
 }
+#logo a{
+    text-decoration: none;
+    color: white;
+}
 .nav{
     float:right;
     padding: 20px;
@@ -135,7 +139,7 @@ body footer{
     margin-right: 1em;
 }
 
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-mycolor { color: #4aaaa5; }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 .material-icons.md-48 { font-size: 48px; }
 
