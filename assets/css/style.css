@@ -138,7 +138,10 @@ body footer{
     max-height: 4em;
     margin-right: 1em;
 }
-
+.gmail{
+    float: left;
+    margin-right: 2em;
+}
 .material-icons.md-mycolor { color: #4aaaa5; }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 .material-icons.md-48 { font-size: 48px; }
