@@ -2,6 +2,7 @@ html,body{
     color: rgb(52, 108, 125);
     background-image: url("../images/bg-pattern.png"), linear-gradient(to bottom, rgb(8, 76, 97), rgb(97, 3, 69),rgb(8, 76, 97));
     background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
 }
 .wrapper{
     min-height: 100%;
@@ -93,7 +94,7 @@ html,body{
     margin-right: 10px;
 }
 .contbody p{
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 .ftext{
     width: 100%;
