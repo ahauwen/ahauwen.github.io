@@ -1,3 +1,7 @@
 #about{
     padding-bottom: 0rem;
 }
+
+a.ignoreLinkStyle{
+    color: #6e6e6e;
+}
