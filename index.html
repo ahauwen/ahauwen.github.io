@@ -1,66 +1,656 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <title>
-        My Basic Portfolio
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Alexander</title>
+	<meta name="description" content="Alexander Hau portfolio page">  
+	<meta name="author" content="Alexander Hau">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+   <link rel="stylesheet" href="css/custom.css">     
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 
-<body>
-    <div class="wrapper">
-        <header class="header rounded">
-            <section class="container hcontainer">
-                <section id="logo" class="rounded">
-                    <a href="./index.html"><h1>Alexander Hau</h1></a>
-                </section>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="./index.html">About</a></li>
-                        <li>|</li>
-                        <li><a href="./portfolio.html">Portfolio</a></li>
-                        <li>|</li>
-                        <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </header>
-        <main class="container">
-            <article class="content rounded">
-                <h1 class="title">About Me</h1>
-                <div class="contbody">
-                    <figure class="profpic">
-                        <img src="./assets/images/300.png" alt="profile image">
-                    </figure>
-                    <p>
-                        I graduated from a 3 year program in George Brown College and got an Advanced Diploma in Programmer Analyst.
-                        After graduating, I got hired at a non-profit organization as their general assistant were
-                        I am the webmaster of the main website made with Wordpress. I aspire to become a great developer were I can 
-                        make useful apps to support people in anyway possible.
-                    </p>
-                    <h3 class="secondTitle">Checkout my profiles</h3>
-                    <a href="https://www.linkedin.com/in/alexander-hau" target="_blank">
-                        <img src="./assets/images/In-2C-115px-TM.png" class="icons">
-                    </a>
-                    <a href="https://github.com/Chestirito" target="_blank">
-                        <img src="./assets/images/GitHub-Mark-64px.png" class="icons">
-                    </a>
-                </div>
-                
-            </article>
-        </main>
-        <footer>
-                Copyright ©2018  
-        </footer>
-    </div>
+<body id="top">
 
-   
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
 
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+				<a href="index.html">Alexander Hau</a>
+			</div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<!-- <li><a class="smoothscroll"  href="#services" title="">Services</a></li>					 -->
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Welcome To My Humble Website</h5>
+	   			<h1>My Name Is Alexander</h1>
+
+	   			<p class="intro-position">
+	   				<span>Web Developer</span>
+	   				<span>Software Developer</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+		<li>
+			<a href="https://www.linkedin.com/in/alexander-hau" target="_blank">
+				<i class="fa"><img src="./images/In-2C-115px-TM.png" class="icons"></i>
+			</a>
+		</li>
+		<li>
+			<a href="https://github.com/Chestirito" target="_blank">
+				<img src="./images/GitHub-Mark-Light-64px.png" class="icons">
+			</a>
+		</li>
+         <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+         <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+	  </ul> 
+	  <!-- /intro-social      	 -->
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">
+					I am a developer that easily adapts and learns new technologies. In fact, I am very open
+					to learning and trying out new things, not limited to development. This attitude lets me 
+					experiment with new ideas, helping me in my love for making useful things were people's 
+					lives can be improved. I aspire to become a great developer were I can make 
+					useful apps to support people in anyway possible. 
+				</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<p>
+				I graduated from a 3 year program in George Brown College and 
+				got an Advanced Diploma in Programmer Analyst. Working at a non-profit organization 
+				as their general assistant were I am the webmaster of the main website made with Wordpress. 
+				While working,I enrolled in Web Development Coding Bootcamp from University of Toronto. 
+				<!-- The coding bootcamp not only taught me about Web development, but also about learning
+				 in a fast paced environment, continually seek to improve, and self learn to 
+				 become a better developer. -->
+			</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Alexander Miguel Hau Wen</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>January 1, 1994</span>
+   				</li>
+   				<li>
+   					<strong>Interested In:</strong>
+   					<span>Backend Web-Developer, Software Developer</span>
+   				</li>
+   				<!-- <li>
+   					<strong>Website:</strong>
+   					<span>www.kardswebsite.com</span>
+   				</li> -->
+   				<li>
+   					<strong>Email:</strong>
+   					<span>awenhau@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Technical Skills</h3>
+   			<p>
+				Some of my relevant technical skills
+			</p>
+
+			<ul class="skill-bars">
+				<li>
+				<div class="progress"></div>
+				<strong>HTML, CSS, JavaScript, jQuery</strong>
+				</li>
+				<li>
+				<div class="progress "></div>
+				<strong>Node.js, Java</strong>
+				</li>
+				<li>
+				<div class="progress "></div>
+				<strong>MongoDB, MySQL, Firebase</strong>
+				</li>
+				<li>
+				<div class="progress "></div>
+				<strong>Express.js, React, Handlebar.js</strong>
+				</li>
+			
+				<!-- <div class="progress percent75"><span>75%</span></div>
+				<strong>Wordpress</strong>
+				</li> -->
+			</ul> 
+			<!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+			<a href="./Resume/Resume.pdf" title="Download Resume" target="_blank" class="button stroke" download>
+				Download Resume
+			</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works.</h1>
+
+   			<p class="lead">
+				Group Projects
+			</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/heroDB.png" alt="SuperHeroe">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Superhero Database</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  JSON API, JavaScript
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/memoryClicky.jpg" alt="memory">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Memory Click Game</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  React 
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/mern.jpg"alt="mern">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">NYT Search App</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Mern Stack: Mongo, Express, React, Node
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/hangman.jpeg" alt="hangman">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Anime Hangman</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  HTML, CSS, JavaScript
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->     
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/rps3.png" alt="rps">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Rock-Paper-Scissors Multiplayer</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  jQuery, Firebase
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/animal.jpg" alt="trivia">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Animal Trivia</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  HTML, CSS, JavaScript, jQuery
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->   
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-heroDB.png" alt="heroes" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Heroes Database</h4>		      
+					      <p>Designed as a one-stop stop application for newcomers to the superheroes universe, were 
+							  users can find information, products, and comics for the heroe being searched.
+						  </p>
+
+					      <div class="categories">API, HTML, CSS, JavaScript</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://chestirito.github.io/group-project/" target="_blank">Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-memoryClicky.jpg" alt="memory" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Memory Click</h4>		      
+					      <p>
+							  Clicking memory were the player gain points by clicking on each 
+							  image once for a maximun of 10 points. The is made with React.
+						  </p>
+
+					      <div class="categories">React</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://chestirito.github.io/React-Clicky-Memory/" target="_blank">Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>NYT Search App</h4>		      
+					      <p>
+							  App were users can input a search to query New York Times'
+							  Api to find articles. App made with the purpose of exercising
+							  MERN stack knowledge.
+						  </p>
+
+					      <div class="categories">MERN: Mongo, Express, React, and Node</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://nyt-mernapp-alex.herokuapp.com" target="_blank">Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-hangman.jpg" alt="hangman" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Anime Hangman</h4>		      
+					      <p>
+							Hangman game were players try to guess the anime by pressing letters with
+							a keyboard. The game is made with vanilla Javascript.
+						  </p>
+
+					      <div class="categories">HTML, CSS, Javascript</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://chestirito.github.io/word-guess-game/" target="_blank">Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-04 -->
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-rps2.jpg" alt="rps" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Rock-Paper-Scissors Multiplayer</h4>		      
+					      <p>
+							Simple rock-paper-scissors game were players join with a name and select 
+							their option to beat the opponents choice. Players can also chat with each other
+							in the chatbox provided. To play the game there must be 2 instances of the game
+							open either on the same computer or separate ones. App was made show understanding
+							of Firebase realtime database.
+						  </p>
+
+					      <div class="categories">HTML, CSS, jQuery, Firebase</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://chestirito.github.io/rps-multiplayer/" target="_blank">Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-05 -->
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-animal.jpg" alt="trivia" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Animal Trivia</h4>		      
+					      <p>
+							  Animal trivia game were users chooses the right answer for each question
+							  for a total of 5 questions. App made with HTML, CSS, and jQuery.
+						  </p>
+
+					      <div class="categories">HTML,CSS, JavaScript, jQuery</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://chestirito.github.io/TriviaGame/" target="_blank">Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-06 -->
+
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact Me</h5>
+   			<h1>Leave me a message.</h1>
+
+   			<p class="lead">
+				Feel free to contact me for any hiring positions. I am currently seeking professional 
+				experience as a developer. I would also appreciate any feedback on what can I improve
+				or just any ideas for projects.
+			</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="mailto:awenhau@gmail.com" enctype="text/plain">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<!-- <div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            1600 Amphitheatre Parkway<br>
+            Mountain View, CA<br>
+            94043 US
+            </p>
+
+   		</div> -->
+
+   		<div class="col-six tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>awenhau@gmail.com			     
+			</p>
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>	Mobile: (647) 719-6556
+			</p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+			      <li><a href="https://www.linkedin.com/in/alexander-hau/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+			      <li><a href="https://github.com/Chestirito" target="_blank"><i class="fa fa-github-square"></i></a></li>
+			      <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+			      <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Alexander 2018.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
 
