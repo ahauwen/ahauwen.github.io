@@ -5,3 +5,7 @@
 a.ignoreLinkStyle{
     color: #6e6e6e;
 }
+
+.popup-modal .link-box a{
+    width: 33.33333%;
+}
